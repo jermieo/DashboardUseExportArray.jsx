@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Help from "./component/Help";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/message" element={<Message />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/setting" element={<Settings />} />
+          <Route path="/help" element={<Help />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

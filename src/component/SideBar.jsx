@@ -117,7 +117,7 @@ const SideBar = () => {
             <Col>
               {" "}
               <Navbar className="bg-body-tertiary">
-                <NavLink to="/setting" className="nav">
+                <NavLink to="/help" className="nav">
                   {" "}
                   <BiQuestionMark className="mx-3 mt-1" />
                   Help
