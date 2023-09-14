@@ -1,0 +1,10 @@
+
+.sidebar{
+    background-color: rgb(106, 255, 0);
+    width: 16%;
+    height: 922px;
+}
+#root{
+    display: flex;
+}
+

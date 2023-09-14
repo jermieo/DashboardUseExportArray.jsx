@@ -1,0 +1,13 @@
+.nav{
+    text-decoration:none;
+}
+.p-5{
+    background-color: aqua;
+    height: 920px;
+}
+.position-relative{
+    top: 342px;
+}
+.bg-body-tertiary{
+    width: 250px;
+}
